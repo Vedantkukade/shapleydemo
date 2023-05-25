@@ -1,0 +1,147 @@
+.body1{
+    width: 100%;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.07);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body1 h1{
+    padding-top: 4%;
+    padding-left: 8%;
+    font-weight: lighter;
+}
+.main{
+    display: flex;
+    height: auto;
+    margin-top: 60px ;
+
+}
+
+.main1{
+    padding-top: 30px;
+    margin-left: 160px;
+    width: 700px;
+    margin-right: 40px;
+    
+}
+
+.main2{
+    padding-top: 50px;
+}
+
+.title{
+    margin-bottom: 60px;
+    font-size:70px;
+    font-weight:lighter;
+    
+}
+.para{
+    margin-bottom: 30px;
+    line-height: 20px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.641);
+    font-size: 16px;
+}
+
+
+
+
+
+
+.searchbox form{
+    display: flex;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    float: left;
+    width:400px;
+    background:transparent;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 50px;
+    padding: 10px;
+    background:transparent;
+    color:black;
+    font-size: 17px;
+    border: 1px solid black;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    
+  }
+  
+  form.example button:hover {
+    border: 1px solid blue;
+  }
+  
+  form.example input:hover{
+    border: 1px solid blue;
+  }
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .toppost{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .content{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+.content ul {
+    list-style-type: none;
+    display: flex;
+   
+}
+
+.content ul li{
+    padding-right: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.c1{
+    padding-top: 5px;
+}
+
+.c1 a{
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.recentcontent{
+    margin-top: 30px;
+
+}
+
+.c2 p {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.c2 p a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.507);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.c2 p a:hover{
+    color: rgba(0, 0, 255, 0.684);
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.196);
+}

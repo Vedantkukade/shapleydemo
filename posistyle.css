@@ -1,0 +1,14 @@
+.fixed{
+    border:2px solid black;
+    position:fixed;
+    bottom:0;
+    right: 0;
+}
+
+.relative{
+    border: 2px solid black;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+}
